@@ -1,6 +1,23 @@
 # CMake and Google Test
 
-[Quickstart: Building with CMake](http://google.github.io/googletest/quickstart-cmake.html)
+This is a sample template for using CMake with Google Test.
+
+This example just contains the basic project structure with a sample `CMakeLists.txt` file. You should be able to easily adapt this sample with your own projects code.
+
+## Project structure
+
+The sample project directory structure looks like
+
+```
+.
+├── build
+└── source
+    ├── CMakeLists.txt
+    ├── func.cpp
+    ├── func.h
+    ├── main.cpp
+    └── tests.cpp
+```
 
 ## Create the CMakeLists.txt
 
@@ -126,3 +143,7 @@ Test project /Users/me/codework/cmake/cmake and goggletest/build
 
 Total Test time (real) =   0.01 sec
 ```
+
+## Further information
+
+- [Quickstart: Building with CMake](http://google.github.io/googletest/quickstart-cmake.html)
