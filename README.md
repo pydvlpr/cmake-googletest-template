@@ -41,7 +41,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 ```
-Then the CMakeLists.txt has to be declate the library and executable.
+Then the CMakeLists.txt has to be declare the library and executable.
 
 ```
 add_library(FuncLib func.cpp func.h)
